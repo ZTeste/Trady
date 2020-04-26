@@ -4,7 +4,7 @@ This project is a machine learning example for forex prediction using RandomFore
 
 Disclaimer : 50% of the time it works every time. 
 
-## How to make prediction ? 
+## How to make predictions ? 
 
 1) Download the currency pair you want to predict 
 2) Generate features using generator.py. You may add more features this way : 
