@@ -17,6 +17,6 @@ data['cci'] = trend.cci(data['bidhigh'], data['bidlow'], data['bidclose'])
 
 3) Generate the model using the results.csv file 
 4) Dowload last market data using test.py script 
-5) Become bald 
-6) Become bankrupt 
+5) Get bald 
+6) Get bankrupt 
 7) Get a proper job 
