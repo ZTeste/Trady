@@ -1,6 +1,7 @@
 # Trady
 
 This project is a machine learning example for forex prediction using RandomForestClassifier. 
+
 Disclaimer : 50% of the time it works every time. 
 
 ## How to make prediction ? 
