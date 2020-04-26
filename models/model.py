@@ -1,9 +1,11 @@
+import pickle
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import f1_score, accuracy_score
 
 FILE = "../data/results.csv"
+MODEL_FILENAME = 'model.sav'
 
 data = pd.read_csv(FILE)
 
@@ -24,3 +26,7 @@ y_pred = model.predict(X_test)
 f1_score = f1_score(y_pred, y_test)
 print("F1 Score : ", f1_score)
 
+print("Saving model...")
+pickle.dump(model, open(MODEL_FILENAME, 'wb'))
+
+print("end")
